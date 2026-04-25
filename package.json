@@ -4,9 +4,9 @@
   "description": "A Svelte recipe web app with client-side authentication",
   "type": "module",
   "scripts": {
-    "dev": "cmd /c \"run-vite.cmd\"",
-    "build": "cmd /c \"run-vite.cmd\" build",
-    "preview": "cmd /c \"run-vite.cmd\" preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "svelte": "^4.0.0"
